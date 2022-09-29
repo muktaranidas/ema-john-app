@@ -22,8 +22,18 @@
 .cart-container {
   background-color: rgba(179, 174, 168, 0.3);
 }
-/* @media screen and (max-width: 1100px) {
-  .products-container {
+@media only screen and (min-width: 1200px) {
+  .cards-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+/* @media only screen and (max-width: 992px) {
+  .cards-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media only screen and (min-width: 600px) {
+  .cards-container {
     grid-template-columns: repeat(2, 1fr);
   }
 } */

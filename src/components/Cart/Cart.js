@@ -25,7 +25,7 @@ const Cart = (props) => {
         <div className="food-details-heading">
           <h5> Time</h5>
           <h5>
-            <span id="food-details-time">30</span> seconds
+            <span>0</span> seconds
           </h5>
         </div>
         <div className="food-details-heading">

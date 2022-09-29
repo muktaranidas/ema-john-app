@@ -25,11 +25,11 @@ const Food = () => {
     }
   }, []);
 
-  // const handleAddToCart = (card) => {
-  //   const newCart = [...cart, card];
-  //   setCart(newCart);
-  //   addToDb(card.id);
-  // };
+  const handleAddToCart = (card) => {
+    localStorage.setItem("time", card.time);
+    // console.log()
+  };
+
   return (
     <div className="food-container">
       <div>
@@ -38,16 +38,18 @@ const Food = () => {
           <h1 className="title">Food-Is-Your-Life</h1>
         </div>
         <h2>Select Food</h2>
+
         <div className="cards-container">
           {cards.map((card) => (
             <Card
               key={card.id}
               card={card}
-              // handleAddToCart={handleAddToCart}
+              handleAddToCart={handleAddToCart}
             ></Card>
           ))}
         </div>
       </div>
+
       <div className="cart-container">
         <Cart></Cart>
       </div>
