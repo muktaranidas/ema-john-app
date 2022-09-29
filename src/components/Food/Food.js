@@ -1,4 +1,6 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCoffee } from "@fortawesome/free-solid-svg-icons";
 import { addToDb, getStoragedcart } from "../../utilities/fakedb";
 import "./Food.css";
 
@@ -31,8 +33,9 @@ const Food = () => {
   return (
     <div className="food-container">
       <div>
-        <div>
-          <h1 className="website-name">Food-Is-Your-Life</h1>
+        <div className="title-icon">
+          <FontAwesomeIcon icon={faCoffee}></FontAwesomeIcon>
+          <h1 className="title">Food-Is-Your-Life</h1>
         </div>
         <h2>Select Food</h2>
         <div className="cards-container">

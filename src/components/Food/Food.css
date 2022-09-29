@@ -1,9 +1,18 @@
-.website-name {
+.title {
   color: rgb(111, 111, 238);
+  font-size: 40px;
+}
+
+.title-icon {
+  display: flex;
+  align-items: center;
+  color: rgb(111, 111, 238);
+  font-size: 20px;
 }
 .food-container {
   display: grid;
   grid-template-columns: 4fr 1fr;
+  margin-left: 20px;
 }
 .cards-container {
   display: grid;

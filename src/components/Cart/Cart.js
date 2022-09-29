@@ -5,8 +5,9 @@ const Cart = (props) => {
   return (
     <div className="cart">
       <div className="my-info">
-        <h4>Name: Mukta Thakur</h4>
+        <h3>Name: Mukta Thakur</h3>
         <h5>From: Dhaka, Bangladesh</h5>
+        <h5>Bsc: Software Engineering</h5>
       </div>
 
       <div>

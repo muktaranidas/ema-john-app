@@ -4,6 +4,8 @@
   padding: 30px 20px;
 }
 .my-info {
+  background-color: rgb(182, 182, 247);
+  padding: 4px;
 }
 .add-a-break {
   display: flex;
