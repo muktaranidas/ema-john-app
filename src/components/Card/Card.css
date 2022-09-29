@@ -1,26 +1,26 @@
-.product {
-  width: 300px;
-  height: 510px;
-  margin: 30px;
+.card {
+  width: 195px;
+  height: 420px;
+  margin: 10px;
   border: 1px solid #95a0a7;
   border-radius: 8px;
   position: relative;
 }
 
-.product img {
-  width: 286px;
-  height: 286px;
+.card img {
+  width: 180px;
+  height: 230px;
   border-radius: 8px;
   margin: 7px;
 }
-.product-info {
+.card-info {
   margin: 14px;
 }
-.product-info p {
+.card-info p {
   margin-bottom: 0;
   margin-top: 5px;
 }
-.product-name {
+.card-name {
   font-family: "Lato";
   font-style: normal;
   font-weight: 400;
@@ -28,14 +28,16 @@
   line-height: 25px;
   margin-top: 7px;
 }
-.btn-cart {
-  width: 100%;
-  padding: 5px;
-  background-color: #ffe0b3;
+.btn-card {
+  width: 80%;
+  padding: 4px;
+  margin-left: 20px;
+  background-color: rgb(113, 113, 245);
+  color: white;
   border: none;
-  border-radius: 0px 0px 8px 8px;
+  border-radius: 5px;
   position: absolute;
-  bottom: 0;
+  bottom: 35px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -43,6 +45,6 @@
 .btn-text {
   margin-right: 5px;
 }
-.btn-cart:hover {
-  background-color: orange;
+.btn-card:hover {
+  background-color: blue;
 }
